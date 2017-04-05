@@ -2,9 +2,11 @@ ES6-Reactのサンプルコード
 <http://qiita.com/nownabe/items/2d8b92d95186c3941de0> をテストするための環境構築が大変なので最低限必要な環境を用意しました。  
 (ファイル分割の話までで、プロパティからは載せてません)
 
+※メモ書きなので失敗する可能性が非常に高いです（汗）
 インストール手順  
-１．データをZIPかgit cloneでダウンロード  
-２．`npm install`で必要なパッケージをインストール  
+１．[node](https://nodejs.org/ja/download/)をインストール（versionは6.1.10）  
+２．データをZIPかgit cloneでダウンロード  
+３．`npm install`で必要なパッケージをインストール  
 
 実行方法  
 １．コマンドプロンプトで`npm run server`でサーバーを起動  
