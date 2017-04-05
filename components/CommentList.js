@@ -1,11 +1,11 @@
 import React from 'react'
+import Comment from './Comment'
 
 export default class CommentList extends React.Component {
   render() {
-    return(
-      <div className='commentList'>
-        Hello, world! I am a CommentList.
-      </div>
-    );
+    const commentNodes = this.props.data.map((comment) => {
+      return (<Comment author={comment.author}>{comment.text}</Comment>);
+    });
+    return(<div className='commentList'>{commentNodes}</div>); 
   }
 }
