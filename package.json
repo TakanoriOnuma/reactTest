@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node ./server.js",
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp build",
+    "building": "npm install && gulp build"
   },
   "author": "nownabe",
   "license": "MIT",
@@ -22,6 +24,7 @@
     "node-dev": "^2.6.2",
     "react": "^0.13.3",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
   }
 }
